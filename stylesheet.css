@@ -42,7 +42,6 @@ img.logo{
     letter-spacing: -.7px;
     transform: scale(1,1.1);
     height: 101%;
-    /* background: red; */
 }
 .menulist{ 
     transition: .01s;
