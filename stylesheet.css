@@ -1,0 +1,464 @@
+@font-face {
+    font-family:Menu;
+    src: url(./font/aktiv-grotesk-w01-black.ttf);
+}
+*{
+    margin: 0;
+
+}
+
+
+.header{
+    position: fixed;
+    background-color: #009b4e;
+    width: 100%;
+    height: 90px;
+    z-index: 3;
+}
+.logocont{
+    width: 184px;
+    height: 90px;
+    float: left;
+}
+img.logo{
+    font-size: 14px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px 0px 0px 32px;
+}
+.menubar{
+    width: 850px;
+    height: 85px;
+    float: left;
+}
+.menubar ul{
+    font-family: Menu;
+    list-style: none;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 366px 0px 68px;
+    font-size: 12.5px;
+    letter-spacing: -.7px;
+    transform: scale(1,1.1);
+    height: 101%;
+    /* background: red; */
+}
+.menulist{ 
+    transition: .01s;
+    
+}
+
+.menulist a{
+    padding-top: 37px;
+    color: #fff;
+    text-decoration: none;
+    height: 100%;
+    display: block;
+}
+.menulist li:hover{
+    cursor: pointer;
+    color: black;
+    border-bottom: 5px solid black;
+
+}
+
+.menulist li a:hover{
+    color: black;
+}
+.iconnav{
+    width: 260px;
+    height: 100%;
+    background-color:#009b4e;
+    float: left;
+
+}
+.iconcont{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.iconcont div{
+    align-self: center;
+}
+.adjicon{
+    width: 16px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 2px;
+    background-color: white;
+    color: #009b4e;
+}
+
+.noboricon{
+    color:white;
+    font-size: 21px;
+    border-radius: 50%;
+    height: 9px;
+    padding-bottom: 11px;
+}
+.noboricon i{
+    position: relative;
+    bottom: .8px;
+}
+.profileicon{
+    font-size: 18px;
+    margin-left: 24px;
+    color: #fff;
+
+}
+.navhov:hover{
+    color: black;
+    background-color: white;
+    
+}
+.dropdown{
+display: none; 
+font-family: Menu;
+font-size: 13px;
+height: 50px;
+width:105px;
+background-color: white;
+color: black;
+position: absolute;
+padding-top: 30px;
+padding-left:55px ;
+top: 70px;
+right: 50px;
+border: 1px solid black;
+}
+.adjicon:hover{
+    background-color: black;
+    border-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.noboricon:hover{
+    color: black;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+.profileicon:hover{
+    color: black;
+    cursor: pointer;
+
+}
+.profileicon:hover  .dropdown{
+    display: block;
+}
+.profileicon:focus .dropdown{
+    display: block;
+}
+.dropdown:hover{
+    color: red;
+}
+.firstpart{
+    width: 100%;
+    height: 532px;
+    background-color: black;
+    padding-top: 90px;
+}
+.summerpart{
+    height: 100%;
+    width: 674px;
+    float: left;
+}
+.summerpart img{
+    height: 75.14px;
+    width: 337.25px;
+    margin-left: 55px;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+.summerpart h1{
+    color: #fff;
+    font-family: Menu;
+    font-weight: 900;
+    font-size: 60px;
+    margin-left: 55px;
+    margin-bottom: 13px;
+    letter-spacing: -.2px;
+    transform: scale(1,1.2);
+}
+.learnmore{
+    margin-left: 55px;
+    background-color: rgb(255,209,0);
+    color: rgb(0,0,0);
+    border: black;
+    width: 170px;
+    height: 45px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Bold', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    letter-spacing: -.7px;
+}
+.learnmore:hover{
+    background-color: black;
+    color: #fff;
+}
+.learnmore:hover a{
+    color: #fff;
+}
+.bottlepart{
+    height: 100%;
+    width: 675px;
+    float: left;
+    background-image: url(./images/sprite-lymonade-bottle.png);
+    background-size: cover;
+}
+.video{
+    width: 493px;
+    height: 277px;
+    margin-top: 44px;
+    margin-left: 122px;
+    float: left;
+}
+.video iframe{
+    width: 100%;
+    height: 100%;
+}
+.videoside{
+    padding-top: 10px;
+    height:268.3px;
+    width: 668px;
+    float: right;
+    margin-top: 44px;
+}
+.boldwrite p{
+    font-size: 53px;
+    font-family: Menu;
+    transform: scaleY(1.2);
+    font-weight: 900;
+    color: black;
+    letter-spacing: -.7px;
+    line-height: 55px;
+}
+.inthisode{
+    font-size: 16.9px;
+    margin-top: 25px;
+    font-family: Menu;
+    transform: scaleY(1.2);
+    letter-spacing: -.7px;
+}
+.transcription{
+  
+    height: 50px;
+    width: 494px;
+    padding-left: 66px;
+    padding-top: 5px;
+    margin-left: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    float: left;
+}
+.btn{
+    width: 42px;    
+    height: 32px;
+    border: none;
+    background-size: 18px;
+    background-color: #009b4e;
+    background-position: center center;
+    font-size: large;
+    color: #fff;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.shopnow{
+    height: 21.5px;
+    width: 165px;
+    background-color: rgb(255,209,0);
+    float: left;
+    position: relative;
+    left: 66px;
+    /* bottom: 5px; */
+    text-align: center;
+    padding-top: 6px;
+    font-size: 12px;
+    font-family: Menu;
+    transform: scaleY(1.2);
+    letter-spacing: -.7px;
+}
+.shopnow:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(66, 59, 59);
+}
+.greentext{
+    width: 674.5px;
+    font-size: 53px;
+    font-family: Menu;
+    transform: scaleY(1.2);
+    font-weight: 900;
+    color: rgb(0,150,57);
+    letter-spacing: -.7px;
+    margin-left: 113px;
+    float: left;
+}
+.clearbottle{
+    background-image: url(./images/all-clear-from-here.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -127px;
+    padding: 0;
+    float: left;
+    width: 450px;
+    height: 438px;
+    
+}
+footer{
+    height: 420px;
+    background-color: #009b4e;
+    margin-top: -1px;
+}
+.upperfooter{
+    height: 236px;
+    width: 1030px;
+    display: flex;
+
+
+}
+.logofooter{
+    width: 190px;
+    height: 95px;
+    margin-left: 168px;
+    margin-top: 28px;
+}
+.logofoot{
+    font-size: 14px;
+    height: 51px;
+    padding: 10px;
+    margin: 10px 0px 0px 32px;
+}
+.iconfooter{
+    margin-left: 107px;
+}
+.iconfooter p{
+    text-align: center;
+    font-family: Menu;
+    color: white;
+    font-size: 12px;
+    letter-spacing: -.7px;
+    transform: scaleY(1.2);
+    margin-bottom: 50px;
+}
+.iconfooter div{
+    display: inline-flex ;
+    transition-duration: .7s;
+}
+.productsfooter {
+    padding-top: 15px;
+    height: 80%;    
+    font-family: Menu;
+    text-align: left;
+    color: white;
+    font-size: 12px;
+    letter-spacing: -.7px;
+    transform: scaleY(1.2);
+    margin-left: 210px;
+
+}
+.prodfootlist li{
+    margin-top: 12px;
+    margin-left: -40px;
+    text-decoration: none;
+    list-style: none;
+  
+}
+.adjifoot{
+    width: 20px;
+    height: 19px;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 2px;
+    background-color: white;
+    color: #009b4e;
+    padding-left: 2px;
+}
+#adjusti{
+    padding-left:4px;
+    width: 16px;
+}
+#instafoot{
+    padding-left: 3px;
+    width: 17px;
+}
+.nobarfoot{
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    top: 3px;
+}
+.iconfooter div:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+}
+.prodfootlist li:hover{
+    color: black;
+    cursor: pointer;
+}
+.footcopy{
+    font-size: 12px;
+    font-family: Menu;
+    letter-spacing: -.7px;
+    color: #fff;
+    text-align: center;
+    margin-top: 29px;
+    transform: scaleY(1.2);
+}
+.footcopy a{
+    text-decoration: none;
+    color: #fff;
+}
+.footcopy a:hover{
+    text-decoration: underline;
+}
+.footlist ul{
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-family: Menu;
+    letter-spacing: -.7px;
+    color: #fff;
+    transform: scaleY(1.2);
+    font-size: 12px;
+}
+.footlist li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footlist li:hover{
+    color: black;
+    cursor: pointer;
+}
+.redbox{
+    font-size: 30px;
+    color: rgb(202, 134, 46);
+    height: 41px;
+    width: 50px;
+    position: fixed;
+    background-color: rgb(185, 18, 18);
+    bottom: 1vh;
+    left: .7vw;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 25%;
+    transition: .5s;
+}
+.redbox:hover{
+    cursor: pointer;
+    color:white;
+    background-color:rgb(168, 16, 16);
+}
