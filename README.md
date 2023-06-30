@@ -1,3 +1,3 @@
 "# Sprite_clone"
 
-#Developer: sirajul muneer
+# Developer: sirajul muneer
