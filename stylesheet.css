@@ -57,13 +57,13 @@ img.logo{
 }
 .menulist li:hover{
     cursor: pointer;
-    color: black;
-    border-bottom: 5px solid black;
+    color: #000;
+    border-bottom: 5px solid #000;
 
 }
 
 .menulist li a:hover{
-    color: black;
+    color: #000;
 }
 .iconnav{
     width: 260px;
@@ -85,16 +85,16 @@ img.logo{
 .adjicon{
     width: 16px;
     height: 15px;
-    border: 2px solid white;
+    border: 2px solid #fff;
     border-radius: 50%;
     text-align: center;
     padding-top: 2px;
-    background-color: white;
+    background-color: #fff;
     color: #009b4e;
 }
 
 .noboricon{
-    color:white;
+    color:#fff;
     font-size: 21px;
     border-radius: 50%;
     height: 9px;
@@ -111,8 +111,8 @@ img.logo{
 
 }
 .navhov:hover{
-    color: black;
-    background-color: white;
+    color: #000;
+    background-color: #fff;
     
 }
 .dropdown{
@@ -121,30 +121,30 @@ font-family: Menu;
 font-size: 13px;
 height: 50px;
 width:105px;
-background-color: white;
-color: black;
+background-color: #fff;
+color: #000;
 position: absolute;
 padding-top: 30px;
 padding-left:55px ;
 top: 70px;
 right: 50px;
-border: 1px solid black;
+border: 1px solid #000;
 }
 .adjicon:hover{
-    background-color: black;
-    border-color: black;
+    background-color: #000;
+    border-color: #000;
     color: #fff;
     cursor: pointer;
 }
 
 .noboricon:hover{
-    color: black;
+    color: #000;
     background-color: #fff;
     cursor: pointer;
 
 }
 .profileicon:hover{
-    color: black;
+    color: #000;
     cursor: pointer;
 
 }
@@ -155,12 +155,12 @@ border: 1px solid black;
     display: block;
 }
 .dropdown:hover{
-    color: red;
+    color: rgb(255, 0, 0);
 }
 .firstpart{
     width: 100%;
     height: 532px;
-    background-color: black;
+    background-color: #000;
     padding-top: 90px;
 }
 .summerpart{
@@ -189,18 +189,18 @@ border: 1px solid black;
     margin-left: 55px;
     background-color: rgb(255,209,0);
     color: rgb(0,0,0);
-    border: black;
+    border: #000;
     width: 170px;
     height: 45px;
     margin-top: 50px;
     text-decoration: none;
-    color: black;
+    color: #000;
     font-family: 'Franklin Gothic Bold', 'Arial Narrow', Arial, sans-serif;
     font-weight: 900;
     letter-spacing: -.7px;
 }
 .learnmore:hover{
-    background-color: black;
+    background-color: #000;
     color: #fff;
 }
 .learnmore:hover a{
@@ -236,7 +236,7 @@ border: 1px solid black;
     font-family: Menu;
     transform: scaleY(1.2);
     font-weight: 900;
-    color: black;
+    color: #000;
     letter-spacing: -.7px;
     line-height: 55px;
 }
@@ -345,7 +345,7 @@ footer{
 .iconfooter p{
     text-align: center;
     font-family: Menu;
-    color: white;
+    color: #fff;
     font-size: 12px;
     letter-spacing: -.7px;
     transform: scaleY(1.2);
@@ -360,7 +360,7 @@ footer{
     height: 80%;    
     font-family: Menu;
     text-align: left;
-    color: white;
+    color: #fff;
     font-size: 12px;
     letter-spacing: -.7px;
     transform: scaleY(1.2);
@@ -377,11 +377,11 @@ footer{
 .adjifoot{
     width: 20px;
     height: 19px;
-    border: 2px solid white;
+    border: 2px solid #fff;
     border-radius: 50%;
     text-align: center;
     padding-top: 2px;
-    background-color: white;
+    background-color: #fff;
     color: #009b4e;
     padding-left: 2px;
 }
@@ -404,7 +404,7 @@ footer{
     cursor: pointer;
 }
 .prodfootlist li:hover{
-    color: black;
+    color: #000;
     cursor: pointer;
 }
 .footcopy{
@@ -458,6 +458,6 @@ footer{
 }
 .redbox:hover{
     cursor: pointer;
-    color:white;
+    color:#fff;
     background-color:rgb(168, 16, 16);
 }
